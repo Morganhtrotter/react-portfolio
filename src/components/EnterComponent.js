@@ -8,8 +8,16 @@ class Enter extends Component {
 	render() {
 
 		return(
-			<div>
-				<Link to="/home">Home</Link>
+			<div className="container-flex">
+				<div className="row vh-100">
+					<div className="col my-auto">
+						<Link to="/home">
+							<Button>
+								Enter Website
+							</Button>
+						</Link>
+					</div>
+				</div>
 			</div>
 		);
 	}
