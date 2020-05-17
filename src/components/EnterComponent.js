@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route, Redirect, withRouter, Link } from 'react-router-dom';
-import Home from './HomeComponent';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import { Link } from 'react-router-dom';
 import { Button } from 'reactstrap';
 
 class Enter extends Component {
