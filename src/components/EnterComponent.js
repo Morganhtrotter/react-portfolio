@@ -6,12 +6,12 @@ class Enter extends Component {
 	render() {
 
 		return(
-			<div className="container-flex">
+			<div className="container-flex" id="enterbg">
 				<div className="row vh-100">
 					<div className="col my-auto">
 						<Link to="/home">
-							<Button>
-								Enter Website
+							<Button className="button" outline>
+								View Portfolio
 							</Button>
 						</Link>
 					</div>
