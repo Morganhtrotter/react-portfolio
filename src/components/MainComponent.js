@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Home from './HomeComponent';
 import Enter from './EnterComponent';
 
@@ -20,15 +19,11 @@ class Main extends Component {
 
 		return(
 			<div>
-				<TransitionGroup>
-					<CSSTransition>
-						<Switch>
-							<Route path="/home" component={HomePage} />
-							<Route path="/enter" component={EnterPage} />
-							<Redirect to="/enter" />
-						</Switch>
-					</CSSTransition>
-				</TransitionGroup>
+				<Switch>
+					<Route path="/home" component={HomePage} />
+					<Route path="/enter" component={EnterPage} />
+					<Redirect to="/enter" />
+				</Switch>
 			</div>
 		);
 	}
