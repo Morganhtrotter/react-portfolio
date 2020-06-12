@@ -6,15 +6,15 @@ class Enter extends Component {
 	render() {
 
 		return(
-				<div className="row vh-100">
-					<div className="col my-auto">
-						<Link to="/home">
-							<Button className="button" outline>
-								View Portfolio
-							</Button>
-						</Link>
-					</div>
+			<div className="row vh-100">
+				<div className="col my-auto">
+					<Link to="/home">
+						<Button className="button" outline>
+							View Portfolio
+						</Button>
+					</Link>
 				</div>
+			</div>
 		);
 	}
 }

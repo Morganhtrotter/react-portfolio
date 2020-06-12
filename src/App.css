@@ -23,6 +23,10 @@ html, body {
     overflow-x: hidden; 
 }
 
+.container {
+  padding: 0;
+}
+
 .button {
   color: var(--primary);
   font-family: 'Roboto', sans-serif;
@@ -55,12 +59,15 @@ html, body {
   text-align: left;
   padding-top: 15vh;
   padding-left: 20px;
+  vertical-align: top;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 96pt;
   font-weight: bolder;
+  display: inline-block;
+  vertical-align: top;
 }
 
 h4 {
@@ -71,4 +78,99 @@ h4 {
 
 p {
   font-family: 'Oswald', sans-serif;
+}
+
+#ssmsvg {
+  background:url("http://localhost:3000/assets/images/ssmgrab.png");
+  background-size:cover;
+  display:block;
+  margin-right: 0;
+  margin-left: auto;
+  float: right;
+}
+
+#ccsvg {
+  background:url("http://localhost:3000/assets/images/ccgrab.png");
+  background-size:cover;
+  display:block;
+}
+
+.ccText, .ssmText {
+  font-size:60px;
+  font-weight:900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#ssmRect {
+  transition:opacity 1s ease-out;
+  opacity: 1;
+}
+
+#ccRect {
+  transition:opacity 1s ease-out;
+  opacity: 1;
+}
+
+#ssmsvg:hover #ssmRect {
+  transition:opacity .6s;
+  opacity: 0;
+}
+
+#ccsvg:hover #ccRect {
+  transition:opacity .6s;
+  opacity: 0;
+}
+
+#ssmsvg:hover .ssmText {
+  transition:font-size .6s ease-in;
+  font-size: 2000pt;
+}
+
+#ccsvg:hover .ccText {
+  transition:font-size .6s ease-in;
+  font-size: 2000pt;
+}
+
+.buttonlink {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+#ssmButton {
+  float: right;
+}
+
+#ccButton {
+  float: left;
+}
+.buttonlink:focus {
+  outline: thin dotted; 
+}
+
+#linkSection {
+  background-color: #E3DFD2;
+  width: 100vw;
+  margin: 0;
+  padding-bottom: 40px;
+  float: right;
+}
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 40pt;
+}
+
+#left, #right {
+  padding: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  #ssmButton, #ccButton {
+    float: none;
+  }
 }

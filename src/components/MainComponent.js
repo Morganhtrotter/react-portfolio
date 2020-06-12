@@ -25,8 +25,6 @@ class Main extends Component {
 			);
 		}
 
-
-
 		return(
 			<div className="container-flex" id="enterbg">
 				<TransitionGroup className="transition-group">
