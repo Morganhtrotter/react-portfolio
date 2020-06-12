@@ -6,7 +6,6 @@ class Enter extends Component {
 	render() {
 
 		return(
-			<div className="container-flex" id="enterbg">
 				<div className="row vh-100">
 					<div className="col my-auto">
 						<Link to="/home">
@@ -16,7 +15,6 @@ class Enter extends Component {
 						</Link>
 					</div>
 				</div>
-			</div>
 		);
 	}
 }

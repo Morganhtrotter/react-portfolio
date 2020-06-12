@@ -1,3 +1,7 @@
+:root {
+  --primary: #566D7E;
+}
+
 .App {
   text-align: center;
 }
@@ -8,6 +12,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: left;
 }
 
 html, body {
@@ -19,18 +24,51 @@ html, body {
 }
 
 .button {
-  color: #566D7E;
+  color: var(--primary);
   font-family: 'Roboto', sans-serif;
+  opacity: 0;
   animation-name: appear;
-  animation-duration: 5s;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .button:hover {
   color: #280202;
-  background-color: #566D7E;
+  background-color: var(--primary);
+}
+
+.button:active {
+  animation-name: appear;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes appear {
   from{opacity: 0;}
   to{opacity: 1;}
+}
+
+#hello {
+  color: var(--primary);
+  text-align: left;
+  padding-top: 15vh;
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 96pt;
+  font-weight: bolder;
+}
+
+h4 {
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  font-size: 24pt;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
 }

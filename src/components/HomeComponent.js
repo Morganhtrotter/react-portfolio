@@ -1,8 +1,22 @@
 import React from 'react';
+import { Stagger, Fade } from 'react-animation-components';
 
 function Home(props) {
 	return(
 		<div className="container">
+			<div className="row vh-100" id="hello">
+				<Stagger delay={700} in>
+						<Fade>
+							<h1>Hello.</h1>
+						</Fade>
+						<Fade>
+							<h4>My name is Morgan.</h4>
+						</Fade>
+						<Fade>
+							<h4>This is my website.</h4>
+						</Fade>
+				</Stagger>
+			</div>
 			<div className="row vh-100">
 				<div className="col-md-4 border my-auto">
 					<img className="w-25" src="../assets/images/frontEndIcon.png" alt="Front-End" />
