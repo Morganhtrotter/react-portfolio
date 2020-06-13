@@ -5,9 +5,6 @@ function WorkPage(props) {
 	return(
 		<div className="" id="linkSection">
 			<div className="row">
-				<h3>MY WORK</h3>
-			</div>
-			<div className="row">
 				<div className="col-md-6" id="left">
 					<Button id="ssmButton" className="buttonlink" href="http://shopsafemarin.com">
 						<svg id="ssmsvg" viewbox="0 0 400 400" width="400" height="400">
@@ -29,7 +26,7 @@ function WorkPage(props) {
 						      <text className="ssmText" x="141" text-anchor="middle" y="395" dy="0">N</text>
 						    </mask>
 						  </defs>
-						  <rect id="ssmRect" x="5" y="5" width="390" height="390" mask="url(#mask)" fill-opacity="1" fill="#E3DFD2"/>
+						  <rect id="ssmRect" x="5" y="5" width="390" height="390" mask="url(#mask)" fill-opacity="1" fill="#F0F0F0"/>
 						</svg>
 					</Button>
 				</div>
@@ -67,7 +64,7 @@ function WorkPage(props) {
 						      <text className="ccText" x="335" text-anchor="middle" y="395" dy="0">N</text>
 						    </mask>
 						  </defs>
-						  <rect id="ccRect" x="5" y="5" width="390" height="390" mask="url(#maskTwo)" fill-opacity="1" fill="#E3DFD2"/>
+						  <rect id="ccRect" x="5" y="5" width="390" height="390" mask="url(#maskTwo)" fill-opacity="1" fill="#F0F0F0"/>
 						</svg>
 					</Button>
 				</div>

@@ -179,10 +179,11 @@ p {
 }
 
 #linkSection {
-  background-color: #E3DFD2;
+  background-color: #F0F0F0;
   width: 100vw;
   margin: 0;
   padding-bottom: 40px;
+  padding-top: 40px;
   float: right;
 }
 
@@ -215,5 +216,19 @@ h3 {
   #descriptionContainer {
     display: inline-block;
     table-layout: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #mask, #maskTwo {
+    width: 100vw;
+  }
+
+  #ssmRect, #ccRect {
+    width: 97vw;
+  }
+
+  #ssmsvg, #ccsvg {
+    width: 100vw;
   }
 }
