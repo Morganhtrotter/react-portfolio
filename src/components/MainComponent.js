@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import { Fade, Transform } from 'react-animation-components';
+import { Fade } from 'react-animation-components';
 import Home from './HomeComponent';
 import Enter from './EnterComponent';
 
 class Main extends Component {
-	constructor(props) {
-		super(props);
-	}
 
 	render() {
 		const HomePage = () => {

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Stagger, Fade, FadeTransform } from 'react-animation-components';
-import { Button } from 'reactstrap';
+import { Stagger, Fade } from 'react-animation-components';
 import WorkPage from './WorkComponent';
 
 function Home(props) {
@@ -23,9 +22,9 @@ function Home(props) {
 				</div>
 			</div>
 			<WorkPage />
-			<div className="container">
-				<div className="row vh-100">
-					<div className="col-md-4 border my-auto">
+			<div className="container" id="descriptionContainer">
+				<div className="row" id="descriptionRow">
+					<div className="description col-md-4 my-auto">
 						<img className="w-25" src="../assets/images/frontEndIcon.png" alt="Front-End" />
 						<h3>Front-End Development</h3>
 						<p>I like to build code from scratch and explore unique solutions to front-end development problems.</p>
@@ -41,7 +40,7 @@ function Home(props) {
 							<li>Chrome</li>
 						</ul>
 					</div>
-					<div className="col-md-4 border my-auto">
+					<div className="description col-md-4 my-auto">
 						<img className="w-25" src="../assets/images/designIcon.png" alt="Front-End" />
 						<h3>Designer</h3>
 						<p>I approach design problems with curiousity, and I value simple content structure and clean design patterns.</p>
@@ -55,7 +54,7 @@ function Home(props) {
 							<li>Wireframes</li>
 						</ul>
 					</div>
-					<div className="col-md-4 border my-auto">
+					<div className="description col-md-4 my-auto">
 						<img className="w-25" src="../assets/images/backEndIcon.png" alt="Front-End" />
 						<h3>Back-End Development</h3>
 						<p>I'm interested in expanding my knowledge of Back-End Development.</p>

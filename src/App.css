@@ -16,6 +16,7 @@
 }
 
 html, body {
+    color: var(--primary);
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -25,6 +26,22 @@ html, body {
 
 .container {
   padding: 0;
+}
+
+.description {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: table-cell;
+}
+
+#descriptionRow {
+  display: table-row;
+}
+
+#descriptionContainer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: table;
+  table-layout: fixed;
 }
 
 .button {
@@ -66,7 +83,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 96pt;
   font-weight: bolder;
-  display: inline-block;
+  display: block;
   vertical-align: top;
 }
 
@@ -80,33 +97,25 @@ p {
   font-family: 'Oswald', sans-serif;
 }
 
-#ssmsvg {
+#ssmsvg, #threesvg {
   background:url("http://localhost:3000/assets/images/ssmgrab.png");
   background-size:cover;
   display:block;
-  margin-right: 0;
-  margin-left: auto;
-  float: right;
 }
 
-#ccsvg {
+#ccsvg, #foursvg {
   background:url("http://localhost:3000/assets/images/ccgrab.png");
   background-size:cover;
   display:block;
 }
 
-.ccText, .ssmText {
-  font-size:60px;
+.ccText, .ssmText, .threeText, .fourText {
+  font-size:50px;
   font-weight:900;
   font-family: 'Montserrat', sans-serif;
 }
 
-#ssmRect {
-  transition:opacity 1s ease-out;
-  opacity: 1;
-}
-
-#ccRect {
+#ssmRect, #ccRect, #threeRect, #fourRect {
   transition:opacity 1s ease-out;
   opacity: 1;
 }
@@ -131,19 +140,40 @@ p {
   font-size: 2000pt;
 }
 
+#threesvg:hover #threeRect {
+  transition:opacity .6s;
+  opacity: 0;
+}
+
+#foursvg:hover #fourRect {
+  transition:opacity .6s;
+  opacity: 0;
+}
+
+#threesvg:hover .threeText {
+  transition:font-size .6s ease-in;
+  font-size: 2000pt;
+}
+
+#foursvg:hover .fourText {
+  transition:font-size .6s ease-in;
+  font-size: 2000pt;
+}
+
 .buttonlink {
   padding: 0;
   margin: 0;
   border: none;
 }
 
-#ssmButton {
+#ssmButton, #threeButton {
   float: right;
 }
 
-#ccButton {
+#ccButton, #fourButton {
   float: left;
 }
+
 .buttonlink:focus {
   outline: thin dotted; 
 }
@@ -162,7 +192,7 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'Barlow Semi Condensed', sans-serif;
-  font-size: 40pt;
+  font-size: 25pt;
 }
 
 #left, #right {
@@ -170,7 +200,20 @@ h3 {
 }
 
 @media only screen and (max-width: 700px) {
-  #ssmButton, #ccButton {
+  #ssmButton, #ccButton, #threeButton, #fourButton {
     float: none;
+  }
+
+  .description {
+    display: inline-block;
+  }
+
+  #descriptionRow {
+    display: inline-block;
+  }
+
+  #descriptionContainer {
+    display: inline-block;
+    table-layout: none;
   }
 }
