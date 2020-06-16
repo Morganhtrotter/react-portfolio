@@ -11,22 +11,12 @@ function WorkPage(props) {
 						  <defs>
 						    <mask id="mask" x="0" y="0" width="400" height="400">
 						      <rect x="0.5" y="0.5" width="400" height="400" fill="#fff"/>
-						      <text className="ssmText" x="17" text-anchor="middle" y="325" dy="0">S</text>
-						      <text className="ssmText" x="45" id="ltrV" text-anchor="middle" y="325" dy="0">H</text>
-						      <text className="ssmText" x="79" text-anchor="middle" y="325" dy="0">O</text>
-						      <text className="ssmText" x="111" text-anchor="middle" y="325" dy="0">P</text>
-						      <text className="ssmText" x="17" id="ltrV" text-anchor="middle" y="360" dy="0">S</text>
-						      <text className="ssmText" x="45" text-anchor="middle" y="360" dy="0">A</text>
-						      <text className="ssmText" x="73" text-anchor="middle" y="360" dy="0">F</text>
-						      <text className="ssmText" x="100" id="ltrV" text-anchor="middle" y="360" dy="0">E</text>
-						      <text className="ssmText" x="22" text-anchor="middle" y="395" dy="0">M</text>
-						      <text className="ssmText" x="60" text-anchor="middle" y="395" dy="0">A</text>
-						      <text className="ssmText" x="94" id="ltrV" text-anchor="middle" y="395" dy="0">R</text>
-						      <text className="ssmText" x="117" text-anchor="middle" y="395" dy="0">I</text>
-						      <text className="ssmText" x="141" text-anchor="middle" y="395" dy="0">N</text>
+						      <text className="ssmText" x="84" text-anchor="middle" y="295" dy="0">SHOP</text>
+						      <text className="ssmText" x="75" id="ltrV" text-anchor="middle" y="340" dy="0">SAFE</text>
+						      <text className="ssmText" x="95" text-anchor="middle" y="385" dy="0">MARIN</text>
 						    </mask>
 						  </defs>
-						  <rect id="ssmRect" x="5" y="5" width="390" height="390" mask="url(#mask)" fill-opacity="1" fill="#F0F0F0"/>
+						  <rect id="ssmRect" x="5" y="5" width="390" height="390" mask="url(#mask)" fill-opacity="1" fill="#E6E6E6"/>
 						</svg>
 					</Button>
 				</div>
@@ -36,35 +26,12 @@ function WorkPage(props) {
 						  <defs>
 						    <mask id="maskTwo" x="0" y="0" width="400" height="400">
 						      <rect x="0.5" y="0.5" width="400" height="400" fill="#fff"/>
-						      <text className="ccText" x="17" text-anchor="middle" y="325" dy="0">C</text>
-						      <text className="ccText" x="49" id="ltrV" text-anchor="middle" y="325" dy="0">A</text>
-						      <text className="ccText" x="81" text-anchor="middle" y="325" dy="0">R</text>
-						      <text className="ccText" x="111" text-anchor="middle" y="325" dy="0">B</text>
-						      <text className="ccText" x="144" id="ltrV" text-anchor="middle" y="325" dy="0">O</text>
-						      <text className="ccText" x="179" text-anchor="middle" y="325" dy="0">N</text>
-						      <text className="ccText" x="20" id="ltrV" text-anchor="middle" y="360" dy="0">D</text>
-						      <text className="ccText" x="45" text-anchor="middle" y="360" dy="0">I</text>
-						      <text className="ccText" x="70" text-anchor="middle" y="360" dy="0">O</text>
-						      <text className="ccText" x="98" id="ltrV" text-anchor="middle" y="360" dy="0">X</text>
-						      <text className="ccText" x="121" text-anchor="middle" y="360" dy="0">I</text>
-						      <text className="ccText" x="145" text-anchor="middle" y="360" dy="0">D</text>
-						      <text className="ccText" x="175" id="ltrV" text-anchor="middle" y="360" dy="0">E</text>
-						      <text className="ccText" x="20" text-anchor="middle" y="395" dy="0">V</text>
-						      <text className="ccText" x="45" text-anchor="middle" y="395" dy="0">I</text>
-						      <text className="ccText" x="68" text-anchor="middle" y="395" dy="0">S</text>
-						      <text className="ccText" x="96" text-anchor="middle" y="395" dy="0">U</text>
-						      <text className="ccText" x="125" text-anchor="middle" y="395" dy="0">A</text>
-						      <text className="ccText" x="153" text-anchor="middle" y="395" dy="0">L</text>
-						      <text className="ccText" x="175" text-anchor="middle" y="395" dy="0">I</text>
-						      <text className="ccText" x="196" text-anchor="middle" y="395" dy="0">Z</text>
-						      <text className="ccText" x="226" text-anchor="middle" y="395" dy="0">A</text>
-						      <text className="ccText" x="252" text-anchor="middle" y="395" dy="0">T</text>
-						      <text className="ccText" x="275" text-anchor="middle" y="395" dy="0">I</text>
-						      <text className="ccText" x="301" text-anchor="middle" y="395" dy="0">O</text>
-						      <text className="ccText" x="335" text-anchor="middle" y="395" dy="0">N</text>
+						      <text className="ccText" x="118" text-anchor="middle" y="295" dy="0">CARBON</text>
+						      <text className="ccText" x="114" id="ltrV" text-anchor="middle" y="340" dy="0">DIOXIDE</text>
+						      <text className="ccText" x="201" text-anchor="middle" y="385" dy="0">VISUALIZATION</text>
 						    </mask>
 						  </defs>
-						  <rect id="ccRect" x="5" y="5" width="390" height="390" mask="url(#maskTwo)" fill-opacity="1" fill="#F0F0F0"/>
+						  <rect id="ccRect" x="5" y="5" width="390" height="390" mask="url(#maskTwo)" fill-opacity="1" fill="#E6E6E6"/>
 						</svg>
 					</Button>
 				</div>

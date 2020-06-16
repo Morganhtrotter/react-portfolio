@@ -1,5 +1,5 @@
 :root {
-  --primary: #566D7E;
+  --primary: #E6E6E6;
 }
 
 .App {
@@ -91,10 +91,11 @@ h4 {
   font-family: 'Abel', sans-serif;
   letter-spacing: 2px;
   font-size: 24pt;
+  margin-left: 10px;
 }
 
-p {
-  font-family: 'Oswald', sans-serif;
+p, li {
+  font-family: 'Abel', sans-serif;
 }
 
 #ssmsvg, #threesvg {
@@ -110,7 +111,7 @@ p {
 }
 
 .ccText, .ssmText, .threeText, .fourText {
-  font-size:50px;
+  font-size:47px;
   font-weight:900;
   font-family: 'Montserrat', sans-serif;
 }
@@ -121,22 +122,22 @@ p {
 }
 
 #ssmsvg:hover #ssmRect {
-  transition:opacity .6s;
+  transition:opacity 0.8s;
   opacity: 0;
 }
 
 #ccsvg:hover #ccRect {
-  transition:opacity .6s;
+  transition:opacity 0.8s;
   opacity: 0;
 }
 
 #ssmsvg:hover .ssmText {
-  transition:font-size .6s ease-in;
+  transition:font-size 0.9s ease-in;
   font-size: 2000pt;
 }
 
 #ccsvg:hover .ccText {
-  transition:font-size .6s ease-in;
+  transition:font-size 0.9s ease-in;
   font-size: 2000pt;
 }
 
@@ -179,7 +180,7 @@ p {
 }
 
 #linkSection {
-  background-color: #F0F0F0;
+  background-color: #E6E6E6;
   width: 100vw;
   margin: 0;
   padding-bottom: 40px;
@@ -230,5 +231,9 @@ h3 {
 
   #ssmsvg, #ccsvg {
     width: 100vw;
+  }
+
+  .ssmText, .ccText {
+    font-size: 43px;
   }
 }

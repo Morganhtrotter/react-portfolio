@@ -13,10 +13,10 @@ function Home(props) {
 								<h1>Hello.</h1>
 							</Fade>
 							<Fade>
-								<h4>My name is Morgan.</h4>
+								<h4>I'm Morgan.</h4>
 							</Fade>
 							<Fade>
-								<h4>This is my website.</h4>
+								<h4>Here's my website.</h4>
 							</Fade>
 					</Stagger>
 				</div>
