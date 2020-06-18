@@ -98,25 +98,43 @@ p, li {
   font-family: 'Abel', sans-serif;
 }
 
-#ssmsvg, #threesvg {
+#ssmsvg {
   background:url("http://localhost:3000/assets/images/ssmgrab.png");
   background-size:cover;
   display:block;
 }
 
-#ccsvg, #foursvg {
+#threesvg {
+  background:url("http://localhost:3000/assets/images/githubgrab.png");
+  background-size:cover;
+  display:block;
+}
+
+#ccsvg {
   background:url("http://localhost:3000/assets/images/ccgrab.png");
   background-size:cover;
   display:block;
 }
 
-.ccText, .ssmText, .threeText, .fourText {
+#foursvg {
+  background:url("http://localhost:3000/assets/images/linkedingrab.png");
+  background-size:cover;
+  display:block;
+}
+
+#fivesvg {
+  background:url("http://localhost:3000/assets/images/resumeGrab.png");
+  background-size:cover;
+  display:block;
+}
+
+.ccText, .ssmText, .threeText, .fourText, .fiveText {
   font-size:47px;
   font-weight:900;
   font-family: 'Montserrat', sans-serif;
 }
 
-#ssmRect, #ccRect, #threeRect, #fourRect {
+#ssmRect, #ccRect, #threeRect, #fourRect, #fiveRect {
   transition:opacity 1s ease-out;
   opacity: 1;
 }
@@ -161,13 +179,23 @@ p, li {
   font-size: 2000pt;
 }
 
+#fivesvg:hover #fiveRect {
+  transition: opacity .6s;
+  opacity: 0;
+}
+
+#fivesvg:hover .fiveText {
+  transition: font-size .6s ease-in;
+  font-size: 2000pt;
+}
+
 .buttonlink {
   padding: 0;
   margin: 0;
   border: none;
 }
 
-#ssmButton, #threeButton {
+#ssmButton, #threeButton, #fiveButton {
   float: right;
 }
 
@@ -179,7 +207,7 @@ p, li {
   outline: thin dotted; 
 }
 
-#linkSection {
+#linkSection, .footer {
   background-color: #E6E6E6;
   width: 100vw;
   margin: 0;
@@ -202,7 +230,7 @@ h3 {
 }
 
 @media only screen and (max-width: 700px) {
-  #ssmButton, #ccButton, #threeButton, #fourButton {
+  #ssmButton, #ccButton, #threeButton, #fourButton, #fiveButton {
     float: none;
   }
 
@@ -221,19 +249,58 @@ h3 {
 }
 
 @media only screen and (max-width: 400px) {
-  #mask, #maskTwo {
+  #mask, #maskTwo, #maskThree, #maskFour, #maskFive {
     width: 100vw;
   }
 
-  #ssmRect, #ccRect {
+  #ssmRect, #ccRect, #threeRect, #fourRect, #fiveRect {
     width: 97vw;
   }
 
-  #ssmsvg, #ccsvg {
+  #ssmsvg, #ccsvg, #threesvg, #foursvg, #fivesvg {
     width: 100vw;
   }
 
-  .ssmText, .ccText {
+  .ssmText, .ccText, .threeText, .fourText, .fiveText {
     font-size: 43px;
   }
+}
+
+@media only screen and (min-width: 700px) {
+  #leftDescription {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  #rightDescription {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+img {
+  padding-top: 20px;
+  height: 100px;
+  object-fit: contain;
+}
+
+#designIcon {
+  height: 70px;
+}
+
+#designHeader {
+  margin-top: 35px;
+}
+
+h5, #footerPhone {
+  color: #333333;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.footer {
+  padding-top: 200px;
 }
