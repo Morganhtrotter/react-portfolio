@@ -195,11 +195,11 @@ p, li {
   border: none;
 }
 
-#ssmButton, #threeButton, #fiveButton {
+#ccButton, #threeButton, #fiveButton {
   float: right;
 }
 
-#ccButton, #fourButton {
+#ssmButton, #fourButton {
   float: left;
 }
 
@@ -302,5 +302,5 @@ h5 {
 }
 
 .footer {
-  padding-top: 200px;
+  padding-top: 100px;
 }

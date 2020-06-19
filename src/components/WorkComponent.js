@@ -5,21 +5,6 @@ function WorkPage(props) {
 	return(
 		<div className="" id="linkSection">
 			<div className="row">
-				<div className="col-md-6" id="left">
-					<Button id="ssmButton" className="buttonlink" href="http://shopsafemarin.com">
-						<svg id="ssmsvg" viewbox="0 0 400 400" width="400" height="400">
-						  <defs>
-						    <mask id="mask" x="0" y="0" width="400" height="400">
-						      <rect x="0.5" y="0.5" width="400" height="400" fill="#fff"/>
-						      <text className="ssmText" x="84" text-anchor="middle" y="295" dy="0">SHOP</text>
-						      <text className="ssmText" x="75" id="ltrV" text-anchor="middle" y="340" dy="0">SAFE</text>
-						      <text className="ssmText" x="95" text-anchor="middle" y="385" dy="0">MARIN</text>
-						    </mask>
-						  </defs>
-						  <rect id="ssmRect" x="5" y="5" width="390" height="390" mask="url(#mask)" fill-opacity="1" fill="#E6E6E6"/>
-						</svg>
-					</Button>
-				</div>
 				<div className="col-md-6" id="right">
 					<Button id="ccButton" className="buttonlink" href="http://morgan-trotter.herokuapp.com/co2/co2.html">
 						<svg id="ccsvg" viewbox="0 0 400 400" width="400" height="400">
@@ -32,6 +17,21 @@ function WorkPage(props) {
 						    </mask>
 						  </defs>
 						  <rect id="ccRect" x="5" y="5" width="390" height="390" mask="url(#maskTwo)" fill-opacity="1" fill="#E6E6E6"/>
+						</svg>
+					</Button>
+				</div>
+				<div className="col-md-6" id="left">
+					<Button id="ssmButton" className="buttonlink" href="http://shopsafemarin.com">
+						<svg id="ssmsvg" viewbox="0 0 400 400" width="400" height="400">
+						  <defs>
+						    <mask id="mask" x="0" y="0" width="400" height="400">
+						      <rect x="0.5" y="0.5" width="400" height="400" fill="#fff"/>
+						      <text className="ssmText" x="84" text-anchor="middle" y="295" dy="0">SHOP</text>
+						      <text className="ssmText" x="75" id="ltrV" text-anchor="middle" y="340" dy="0">SAFE</text>
+						      <text className="ssmText" x="95" text-anchor="middle" y="385" dy="0">MARIN</text>
+						    </mask>
+						  </defs>
+						  <rect id="ssmRect" x="5" y="5" width="390" height="390" mask="url(#mask)" fill-opacity="1" fill="#E6E6E6"/>
 						</svg>
 					</Button>
 				</div>
