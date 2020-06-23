@@ -7,7 +7,7 @@
 }
 
 #enterbg {
-  background: url("http://localhost:3000/assets/images/enterbg.png") no-repeat center center fixed; 
+  background: url("https://morgantrotter.herokuapp.com/assets/images/enterbg.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -99,31 +99,31 @@ p, li {
 }
 
 #ssmsvg {
-  background:url("http://localhost:3000/assets/images/ssmgrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/ssmgrab.png");
   background-size:cover;
   display:block;
 }
 
 #threesvg {
-  background:url("http://localhost:3000/assets/images/githubgrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/githubGrab.png");
   background-size:cover;
   display:block;
 }
 
 #ccsvg {
-  background:url("http://localhost:3000/assets/images/ccgrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/ccgrab.png");
   background-size:cover;
   display:block;
 }
 
 #foursvg {
-  background:url("http://localhost:3000/assets/images/linkedingrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/linkedingrab.png");
   background-size:cover;
   display:block;
 }
 
 #fivesvg {
-  background:url("http://localhost:3000/assets/images/resumeGrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/resumeGrab.png");
   background-size:cover;
   display:block;
 }
@@ -149,16 +149,6 @@ p, li {
   opacity: 0;
 }
 
-#ssmsvg:hover .ssmText {
-  transition:font-size 0.9s ease-in;
-  font-size: 2000pt;
-}
-
-#ccsvg:hover .ccText {
-  transition:font-size 0.9s ease-in;
-  font-size: 2000pt;
-}
-
 #threesvg:hover #threeRect {
   transition:opacity .6s;
   opacity: 0;
@@ -169,24 +159,9 @@ p, li {
   opacity: 0;
 }
 
-#threesvg:hover .threeText {
-  transition:font-size .6s ease-in;
-  font-size: 2000pt;
-}
-
-#foursvg:hover .fourText {
-  transition:font-size .6s ease-in;
-  font-size: 2000pt;
-}
-
 #fivesvg:hover #fiveRect {
   transition: opacity .6s;
   opacity: 0;
-}
-
-#fivesvg:hover .fiveText {
-  transition: font-size .6s ease-in;
-  font-size: 2000pt;
 }
 
 .buttonlink {

@@ -66,7 +66,7 @@ function WorkPage(props) {
 			</div>
 			<div className="row">
 				<div className="col-md-6" id="left">
-					<Button id="fiveButton" className="buttonlink" href="http://localhost:3000/assets/images/MorganTrotter-Resume2020.pdf">
+					<Button id="fiveButton" className="buttonlink" href="https://morgantrotter.herokuapp.com/assets/images/MorganTrotter-Resume2020.pdf">
 						<svg id="fivesvg" viewbox="0 0 400 400" width="400" height="400">
 						  <defs>
 						    <mask id="maskFive" x="0" y="0" width="400" height="400">
