@@ -18,6 +18,9 @@ function Home(props) {
 							<Fade>
 								<h4>This is my portfolio.</h4>
 							</Fade>
+							<Fade>
+								<h4>View my work below.</h4>
+							</Fade>
 					</Stagger>
 				</div>
 			</div>
