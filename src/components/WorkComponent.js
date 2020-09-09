@@ -38,8 +38,8 @@ function WorkPage(props) {
 			</div>
 			<div className="row">
 				<div className="col-md-6" id="right">
-					<Button id="EvButton" className="buttonlink" style={{display: "table-cell"}} href="http://coaching-ev.herokuapp.com/" target="_blank">
-						<svg id="Evsvg" viewBox="0 0 400 400" width="400" height="400">
+					<Button id="evButton" className="buttonlink" style={{display: "table-cell"}} href="http://coaching-ev.herokuapp.com/" target="_blank">
+						<svg id="evsvg" viewBox="0 0 400 400" width="400" height="400">
 						  <defs>
 						    <mask id="maskEv" x="0" y="0" width="400" height="400">
 						      <rect x="0.5" y="0.5" width="400" height="400" fill="#fff"/>
