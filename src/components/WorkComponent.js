@@ -6,7 +6,7 @@ function WorkPage(props) {
 		<div id="linkSection">
 			<div className="row" >
 				<div className="col-md-6" id="right">
-					<Button id="ccButton" className="buttonlink" href="http://morgan-trotter.herokuapp.com/co2/co2.html">
+					<Button id="ccButton" className="buttonlink" href="https://co2-emissions-visual.herokuapp.com/">
 						<svg id="ccsvg" viewBox="0 0 400 400" width="400" height="400">
 						  <defs>
 						    <mask id="maskTwo" x="0" y="0" width="400" height="400">
@@ -37,6 +37,19 @@ function WorkPage(props) {
 				</div>
 			</div>
 			<div className="row">
+				<div className="col-md-6" id="right">
+					<Button id="EvButton" className="buttonlink" href="http://coaching-ev.herokuapp.com/">
+						<svg id="Evsvg" viewBox="0 0 400 400" width="400" height="400">
+						  <defs>
+						    <mask id="maskEv" x="0" y="0" width="400" height="400">
+						      <rect x="0.5" y="0.5" width="400" height="400" fill="#fff"/>
+						      <text className="evText" x="10" y="385" dy="0" style={{fontFamily: 'Montserrat'}}>EV</text>
+						    </mask>
+						  </defs>
+						  <rect id="evRect" x="5" y="5" width="390" height="390" mask="url(#maskEv)" fill="#E6E6E6"/>
+						</svg>
+					</Button>
+				</div>
 				<div className="col-md-6" id="left">
 					<Button id="threeButton" className="buttonlink" href="https://github.com/Morganhtrotter">
 						<svg id="threesvg" viewBox="0 0 400 400" width="400" height="400">
@@ -50,6 +63,8 @@ function WorkPage(props) {
 						</svg>
 					</Button>
 				</div>
+			</div>
+			<div className="row">
 				<div className="col-md-6" id="right">
 					<Button id="fourButton" className="buttonlink" href="https://www.linkedin.com/in/morgan-trotter-15704216a/">
 						<svg id="foursvg" viewBox="0 0 400 400" width="400" height="400">
@@ -63,8 +78,6 @@ function WorkPage(props) {
 						</svg>
 					</Button>
 				</div>
-			</div>
-			<div className="row">
 				<div className="col-md-6" id="left">
 					<Button id="fiveButton" className="buttonlink" href="https://morgantrotter.herokuapp.com/assets/images/MorganTrotter-Resume2020.pdf">
 						<svg id="fivesvg" viewBox="0 0 400 400" width="400" height="400">
@@ -81,7 +94,6 @@ function WorkPage(props) {
 			</div>
 		</div>
 	);
-	
 }
 
 export default WorkPage;
