@@ -1,12 +1,12 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 
-function WorkPage(props) {
+function WorkPage(props) {	
 	return(
 		<div id="linkSection">
 			<div className="row" >
 				<div className="col-md-6" id="right">
-					<Button id="ccButton" className="buttonlink" href="https://co2-emissions-visual.herokuapp.com/">
+					<Button id="ccButton" className="buttonlink" style={{display: "table-cell"}} href="https://co2-emissions-visual.herokuapp.com/" target="_blank">
 						<svg id="ccsvg" viewBox="0 0 400 400" width="400" height="400">
 						  <defs>
 						    <mask id="maskTwo" x="0" y="0" width="400" height="400">
@@ -21,7 +21,7 @@ function WorkPage(props) {
 					</Button>
 				</div>
 				<div className="col-md-6" id="left">
-					<Button id="ssmButton" className="buttonlink" href="http://shopsafemarin.com">
+					<Button id="ssmButton" className="buttonlink" style={{display: "table-cell"}} href="http://shopsafemarin.com" target="_blank">
 						<svg id="ssmsvg" viewBox="0 0 400 400" width="400" height="400">
 						  <defs>
 						    <mask id="mask" x="0" y="0" width="400" height="400">
@@ -38,7 +38,7 @@ function WorkPage(props) {
 			</div>
 			<div className="row">
 				<div className="col-md-6" id="right">
-					<Button id="EvButton" className="buttonlink" href="http://coaching-ev.herokuapp.com/">
+					<Button id="EvButton" className="buttonlink" style={{display: "table-cell"}} href="http://coaching-ev.herokuapp.com/" target="_blank">
 						<svg id="Evsvg" viewBox="0 0 400 400" width="400" height="400">
 						  <defs>
 						    <mask id="maskEv" x="0" y="0" width="400" height="400">
@@ -51,7 +51,7 @@ function WorkPage(props) {
 					</Button>
 				</div>
 				<div className="col-md-6" id="left">
-					<Button id="threeButton" className="buttonlink" href="https://github.com/Morganhtrotter">
+					<Button id="threeButton" className="buttonlink" style={{display: "table-cell"}} href="https://github.com/Morganhtrotter" target="_blank">
 						<svg id="threesvg" viewBox="0 0 400 400" width="400" height="400">
 						  <defs>
 						    <mask id="maskThree" x="0" y="0" width="400" height="400">
@@ -66,7 +66,7 @@ function WorkPage(props) {
 			</div>
 			<div className="row">
 				<div className="col-md-6" id="right">
-					<Button id="fourButton" className="buttonlink" href="https://www.linkedin.com/in/morgan-trotter-15704216a/">
+					<Button id="fourButton" className="buttonlink" style={{display: "table-cell"}} href="https://www.linkedin.com/in/morgan-trotter-15704216a/" target="_blank">
 						<svg id="foursvg" viewBox="0 0 400 400" width="400" height="400">
 						  <defs>
 						    <mask id="maskFour" x="0" y="0" width="400" height="400">
@@ -79,7 +79,7 @@ function WorkPage(props) {
 					</Button>
 				</div>
 				<div className="col-md-6" id="left">
-					<Button id="fiveButton" className="buttonlink" href="https://morgantrotter.herokuapp.com/assets/images/MorganTrotter-Resume2020.pdf">
+					<Button id="fiveButton" className="buttonlink" style={{display: "table-cell"}} href="https://morgantrotter.herokuapp.com/assets/images/MorganTrotter-Resume2020.pdf" target="_blank">
 						<svg id="fivesvg" viewBox="0 0 400 400" width="400" height="400">
 						  <defs>
 						    <mask id="maskFive" x="0" y="0" width="400" height="400">

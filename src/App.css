@@ -50,7 +50,6 @@ html, body {
 
 .button {
   color: var(--primary);
-  font-family: 'Montserrat', sans-serif;
   opacity: 0;
   animation-name: appear;
   animation-duration: 3s;
@@ -132,8 +131,8 @@ p, li {
   display:block;
 }
 
-#fivesvg {
-  background:url("https://morgantrotter.herokuapp.com/assets/images/evgrab.jpg");
+#Evsvg {
+  background:url("https://morgantrotter.herokuapp.com/assets/images/evgrab.png");
   background-size:cover;
   display:block;
 }
@@ -144,7 +143,8 @@ p, li {
 }
 
 #ssmRect, #ccRect, #threeRect, #fourRect, #fiveRect, #evRect {
-  transition:opacity 1s ease-out;
+  font-family: 'Montserrat', sans-serif;
+  transition: opacity 1s ease-out;
   opacity: 1;
 }
 
@@ -219,7 +219,7 @@ h3 {
 }
 
 @media only screen and (max-width: 700px) {
-  #ssmButton, #ccButton, #threeButton, #fourButton, #fiveButton {
+  #ssmButton, #ccButton, #threeButton, #fourButton, #fiveButton, #EvButton {
     float: none;
   }
 
