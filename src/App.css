@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Semi+Condensed:wght@200&family=Montserrat&family=Oswald&family=Roboto&display=swap');
 
 
@@ -197,8 +198,8 @@ p, li {
 }
 
 #linkSection, .footer {
-  background-color: #E6E6E6;
   width: 100vw;
+  background-color: #E6E6E6;
   margin: 0;
   padding-bottom: 40px;
   padding-top: 40px;
@@ -238,18 +239,6 @@ h3 {
 }
 
 @media only screen and (max-width: 400px) {
-  #mask, #maskTwo, #maskEv, #maskThree, #maskFour, #maskFive {
-    width: 100vw;
-  }
-
-  #ssmRect, #ccRect, #evRect, #threeRect, #fourRect, #fiveRect {
-    width: 97vw;
-  }
-
-  #ssmsvg, #ccsvg, #Evsvg, #threesvg, #foursvg, #fivesvg {
-    width: 100vw;
-  }
-
   .ssmText, .ccText, .evText, .threeText, .fourText, .fiveText {
     font-size: 43px;
   }
@@ -292,4 +281,29 @@ h5 {
 
 .footer {
   padding-top: 100px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-content {
+  color: black;
+  background-color: var(--primary);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.modalheader {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.modaltext {
+  font-family: 'Abel', sans-serif;
+}
+
+.modal-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 20pt;
 }
