@@ -144,7 +144,7 @@ class WorkPage extends Component {
 							<li>Heroku</li>
 							<li>Github</li>
 						</ul>
-						<Button className="viewProject" color="primary" href="https://morganhtrotter.github.io/githubpages/" target="_blank">
+						<Button className="viewProject" color="primary" href="https://morganhtrotter.github.io/co2page/" target="_blank">
 							View Project
 						</Button>
 						<Button color="primary" href="https://github.com/Morganhtrotter/co2-visualization/blob/master/README.md" target="_blank">
