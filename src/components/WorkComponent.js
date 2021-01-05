@@ -144,7 +144,7 @@ class WorkPage extends Component {
 							<li>Heroku</li>
 							<li>Github</li>
 						</ul>
-						<Button color="primary" href="https://co2-emissions-visual.herokuapp.com/" target="_blank">
+						<Button className="viewProject" color="primary" href="https://morganhtrotter.github.io/githubpages/" target="_blank">
 							View Project
 						</Button>
 						<Button color="primary" href="https://github.com/Morganhtrotter/co2-visualization/blob/master/README.md" target="_blank">
@@ -174,8 +174,11 @@ class WorkPage extends Component {
 							<li>AWS Elasticbeanstalk</li>
 							<li>Github</li>
 						</ul>
-						<Button color="primary" href="http://shopsafemarin-env.eba-vjj6mcnm.us-east-2.elasticbeanstalk.com/#/home" target="_blank">
+						<Button className="viewProject" color="primary" href="http://shopsafemarin-env.eba-vjj6mcnm.us-east-2.elasticbeanstalk.com/#/home" target="_blank">
 							View Project
+						</Button>
+						<Button color="primary" href="https://github.com/Morganhtrotter/shop-safe-marin/blob/master/README.md" target="_blank">
+							View ReadMe
 						</Button>
 					</ModalBody>
 				</Modal>
@@ -200,8 +203,11 @@ class WorkPage extends Component {
 							<li>Heroku</li>
 							<li>Github</li>
 						</ul>
-						<Button color="primary" href="http://coaching-ev.herokuapp.com/" target="_blank">
+						<Button className="viewProject" color="primary" href="http://coaching-ev.herokuapp.com/" target="_blank">
 							View Project
+						</Button>
+						<Button color="primary" href="https://github.com/Morganhtrotter/Ev/blob/master/README.md" target="_blank">
+							View ReadMe
 						</Button>
 					</ModalBody>
 				</Modal>
