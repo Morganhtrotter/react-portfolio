@@ -203,7 +203,7 @@ class WorkPage extends Component {
 							<li>Heroku</li>
 							<li>Github</li>
 						</ul>
-						<Button className="viewProject" color="primary" href="http://coaching-ev.herokuapp.com/" target="_blank">
+						<Button className="viewProject" color="primary" href="https://coaching-ev.herokuapp.com/#/enter" target="_blank">
 							View Project
 						</Button>
 						<Button color="primary" href="https://github.com/Morganhtrotter/Ev/blob/master/README.md" target="_blank">
