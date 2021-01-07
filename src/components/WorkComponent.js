@@ -110,7 +110,7 @@ class WorkPage extends Component {
 						</Button>
 					</div>
 					<div className="col-md-6" id="left">
-						<Button id="fiveButton" className="buttonlink" style={{display: "table-cell"}} href="https://morgantrotter.herokuapp.com/assets/images/MorganTrotter-Resume2020.pdf" target="_blank">
+						<Button id="fiveButton" className="buttonlink" style={{display: "table-cell"}} href="https://morgantrotter.herokuapp.com/assets/images/MorganTrotter-Resume2021.pdf" target="_blank">
 							<svg id="fivesvg" viewBox="0 0 400 400" width="400" height="400">
 							  <defs>
 							    <mask id="maskFive" x="0" y="0" width="400" height="400">
