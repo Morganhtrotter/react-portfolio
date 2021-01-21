@@ -188,13 +188,14 @@ class WorkPage extends Component {
 						<h5 className="modalheader">About:</h5>
 						<p className="modaltext">
 							EV is a coaching evaluator to help baseball coaches more easily evaluate their players overall skill level. This site also uses React/Redux 
-							to get the users information and skill assesment, and display their overall score on the breakdown page. It is intended to be used on mobile, 
+							to get the users information and skill assesment, and display their overall score and interactive visuals on the breakdown page. It is intended to be used on mobile, 
 							however it works just as well on desktop.
 						</p>
 						<h5 className="modalheader">Technologies Used:</h5>
 						<ul className="modaltext">
 							<li>React.js</li>
 							<li>Redux</li>
+							<li>D3.js</li>
 							<li>Reactstrap</li>
 							<li>Javascript</li>
 							<li>HTML5</li>
