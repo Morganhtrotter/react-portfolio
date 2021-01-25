@@ -11,7 +11,7 @@
 }
 
 #enterbg {
-  background: url("https://morgantrotter.herokuapp.com/assets/images/enterbg.png") no-repeat center center fixed; 
+  background: url("https://morgantrotter.herokuapp.com/assets/images/enterbg.webp") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -103,37 +103,37 @@ p, li {
 }
 
 #ssmsvg {
-  background:url("https://morgantrotter.herokuapp.com/assets/images/ssmgrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/ssmgrab.webp");
   background-size:cover;
   display:block;
 }
 
 #threesvg {
-  background:url("https://morgantrotter.herokuapp.com/assets/images/githubGrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/githubGrab.webp");
   background-size:cover;
   display:block;
 }
 
 #ccsvg {
-  background:url("https://morgantrotter.herokuapp.com/assets/images/ccgrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/ccgrab.webp");
   background-size:cover;
   display:block;
 }
 
 #foursvg {
-  background:url("https://morgantrotter.herokuapp.com/assets/images/linkedingrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/linkedingrab.webp");
   background-size:cover;
   display:block;
 }
 
 #fivesvg {
-  background:url("https://morgantrotter.herokuapp.com/assets/images/resumeGrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/resumeGrab.webp");
   background-size:cover;
   display:block;
 }
 
 #evsvg {
-  background:url("https://morgantrotter.herokuapp.com/assets/images/evgrab.png");
+  background:url("https://morgantrotter.herokuapp.com/assets/images/evgrab.webp");
   background-size:cover;
   display:block;
 }
