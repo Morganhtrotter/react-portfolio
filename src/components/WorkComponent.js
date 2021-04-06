@@ -260,7 +260,7 @@ class WorkPage extends Component {
 							<li>Github</li>
 						</ul>
 						<Button className="viewProject" color="primary" href="https://morganhtrotter.github.io/PitchSequences/" target="_blank">
-							View Project
+							View Project (WIP)
 						</Button>
 						<Button color="primary" href="https://github.com/Morganhtrotter/PitchSequences/blob/master/README.md" target="_blank">
 							View ReadMe
