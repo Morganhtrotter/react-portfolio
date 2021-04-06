@@ -7,11 +7,13 @@ class WorkPage extends Component {
 		this.state = {
 			isCO2ModalOpen: false,
 			isSSMModalOpen: false,
-			isEVModalOpen: false
+			isEVModalOpen: false,
+			isSunburstModalOpen: false
 		}
 		this.toggleCO2Modal = this.toggleCO2Modal.bind(this);
 		this.toggleSSMModal = this.toggleSSMModal.bind(this);
 		this.toggleEVModal = this.toggleEVModal.bind(this);
+		this.toggleSunburstModal = this.toggleSunburstModal.bind(this);
 	}
 
 	toggleCO2Modal() {
@@ -29,6 +31,12 @@ class WorkPage extends Component {
 	toggleEVModal() {
 		this.setState({
 			isEVModalOpen: !this.state.isEVModalOpen
+		})
+	}
+
+	toggleSunburstModal() {
+		this.setState({
+			isSunburstModalOpen: !this.state.isSunburstModalOpen
 		})
 	}
 
@@ -82,15 +90,17 @@ class WorkPage extends Component {
 						</Button>
 					</div>
 					<div className="col-md-6" id="left">
-						<Button id="threeButton" className="buttonlink" style={{display: "table-cell"}} href="https://github.com/Morganhtrotter" target="_blank">
-							<svg id="threesvg" viewBox="0 0 400 400" width="400" height="400">
+						<Button id="sunburstButton" className="buttonlink" style={{display: "table-cell"}} onClick={this.toggleSunburstModal}>
+							<svg id="sunburstsvg" viewBox="0 0 400 400" width="400" height="400">
 							  <defs>
-							    <mask id="maskThree" x="0" y="0" width="400" height="400">
+							    <mask id="maskSunburst" x="0" y="0" width="400" height="400">
 							      <rect x="0.5" y="0.5" width="400" height="400" fill="#fff"/>
-							      <text className="threeText" x="10" y="385" dy="0" style={{fontFamily: 'Montserrat'}}>GITHUB</text>
+							      <text className="sunburstText" x="10" y="295" dy="0" style={{fontFamily: 'Montserrat'}}>PITCH</text>
+							      <text className="sunburstText" x="10" y="340" dy="0" style={{fontFamily: 'Montserrat'}}>SEQUENCES</text>
+							      <text className="sunburstText" x="10" y="385" dy="0" style={{fontFamily: 'Montserrat'}}>SUNBURST</text>
 							    </mask>
 							  </defs>
-							  <rect id="threeRect" x="5" y="5" width="390" height="390" mask="url(#maskThree)" fill="#E6E6E6"/>
+							  <rect id="sunburstRect" x="5" y="5" width="390" height="390" mask="url(#maskSunburst)" fill="#E6E6E6"/>
 							</svg>
 						</Button>
 					</div>
@@ -119,6 +129,21 @@ class WorkPage extends Component {
 							    </mask>
 							  </defs>
 							  <rect id="fiveRect" x="5" y="5" width="390" height="390" mask="url(#maskFive)" fill="#E6E6E6"/>
+							</svg>
+						</Button>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-md-6" id="left">
+						<Button id="threeButton" className="buttonlink" style={{display: "table-cell"}} href="https://github.com/Morganhtrotter" target="_blank">
+							<svg id="threesvg" viewBox="0 0 400 400" width="400" height="400">
+							  <defs>
+							    <mask id="maskThree" x="0" y="0" width="400" height="400">
+							      <rect x="0.5" y="0.5" width="400" height="400" fill="#fff"/>
+							      <text className="threeText" x="10" y="385" dy="0" style={{fontFamily: 'Montserrat'}}>GITHUB</text>
+							    </mask>
+							  </defs>
+							  <rect id="threeRect" x="5" y="5" width="390" height="390" mask="url(#maskThree)" fill="#E6E6E6"/>
 							</svg>
 						</Button>
 					</div>
@@ -208,6 +233,36 @@ class WorkPage extends Component {
 							View Project
 						</Button>
 						<Button color="primary" href="https://github.com/Morganhtrotter/Ev/blob/master/README.md" target="_blank">
+							View ReadMe
+						</Button>
+					</ModalBody>
+				</Modal>
+				<Modal isOpen={this.state.isSunburstModalOpen} toggle={this.toggleSunburstModal}>
+					<ModalHeader toggle={this.toggleSunburstModal}>Pitch Sequences Sunburst</ModalHeader>
+					<ModalBody>
+						<h5 className="modalheader">About:</h5>
+						<p className="modaltext">
+							This is used to display the sequence of pitches in a baseball At-Bat, along with the outcome of the At-Bat. 
+							The inner-most ring shows the outcome of the At-BAt (strikeout, single, groundout, etc.). Green arc's represent 
+							a positive outcome (when the batter is out), and red arc's represent a negative outcome (when the batter reached 
+							base). Moving outwards, the next ring shows the first pitch of the At-Bat, and then the second pitch, third 
+							pitch, etc. The different shades of blue represent the different types of pitches the pitcher is throwing.
+						</p>
+						<h5 className="modalheader">Technologies Used:</h5>
+						<ul className="modaltext">
+							<li>JavaScript</li>
+							<li>D3.js</li>
+							<li>Google PageSpeed Insights</li>
+							<li>W3C Markup Validation Service</li>
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>node.js</li>
+							<li>Github</li>
+						</ul>
+						<Button className="viewProject" color="primary" href="https://morganhtrotter.github.io/PitchSequences/" target="_blank">
+							View Project
+						</Button>
+						<Button color="primary" href="https://github.com/Morganhtrotter/PitchSequences/blob/master/README.md" target="_blank">
 							View ReadMe
 						</Button>
 					</ModalBody>

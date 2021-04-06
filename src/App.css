@@ -138,12 +138,18 @@ p, li {
   display:block;
 }
 
-.ccText, .ssmText, .threeText, .fourText, .fiveText, .evText {
+#sunburstsvg {
+  background:url("https://morgantrotter.herokuapp.com/assets/images/sunburstGrab.webp");
+  background-size:cover;
+  display:block;
+}
+
+.ccText, .ssmText, .threeText, .fourText, .fiveText, .evText, .sunburstText {
   font-size:47px;
   font-weight:900;
 }
 
-#ssmRect, #ccRect, #threeRect, #fourRect, #fiveRect, #evRect {
+#ssmRect, #ccRect, #threeRect, #fourRect, #fiveRect, #evRect, #sunburstRect {
   font-family: 'Montserrat', sans-serif;
   transition: opacity 1s ease-out;
   opacity: 1;
@@ -179,17 +185,22 @@ p, li {
   opacity: 0;
 }
 
+#sunburstsvg:hover #sunburstRect {
+  transition: opacity .6s;
+  opacity: 0;
+}
+
 .buttonlink {
   padding: 0;
   margin: 0;
   border: none;
 }
 
-#ccButton, #evButton, #fourButton {
+#ccButton, #evButton, #fourButton, #threeButton {
   float: right;
 }
 
-#ssmButton, #fiveButton, #threeButton {
+#ssmButton, #fiveButton, #sunburstButton {
   float: left;
 }
 
